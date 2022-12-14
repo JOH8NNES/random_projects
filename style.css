@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 select {
     position: fixed;
     top: 10%;
@@ -7,8 +11,9 @@ select {
     margin: auto;
     border-radius: 100px;
   }
-  
+
 h1 {
+  color: lightgreen;
   position: fixed;
   top: 4%;
   left: 50%;
@@ -17,4 +22,12 @@ h1 {
   text-decoration: underline;
   font-style: italic;
   font-weight: bold;
+}
+
+.option {
+  color: dodgerblue;
+}
+
+.no1 {
+  color: darkblue;
 }
