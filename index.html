@@ -12,12 +12,18 @@
 
     <h1>Wähle deine Website</h1>
 
-    <select name="Websites" id="websites">
+    <select name="Websites" id="websites" class="selection">
         <option class="option no1" selected disabled>Select</option>
         <option class="option" value="https://youtube.com/">Youtube</option>
         <option class="option" value="https://mycampus.iubh.de/">MyCampus</option>
         <option class="option" value="https://chat.openai.com/chat">Chatbot GPT</option>
     </select>
+
+    <br><br>
+
+    <input type="text" id="input_name" placeholder="Name der Website ...">
+    <input type="text" id="input_link" placeholder="Link der Website ...">
+    <button onclick="addwebsite()">Füge eine neue Website hinzu!</button>
     
 </body>
 </html>

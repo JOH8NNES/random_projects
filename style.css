@@ -11,6 +11,10 @@ select {
     margin: auto;
     border-radius: 100px;
   }
+select,
+option {
+  color: dodgerblue;
+}
 
 h1 {
   color: lightgreen;
@@ -24,10 +28,10 @@ h1 {
   font-weight: bold;
 }
 
-.option {
-  color: dodgerblue;
-}
-
 .no1 {
   color: darkblue;
+}
+
+.selection {
+  color: red;
 }

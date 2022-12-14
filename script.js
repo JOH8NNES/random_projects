@@ -7,6 +7,13 @@ selectElement.addEventListener('change', (event) => {
 
 
 
-// function addwebsite() {
-//     document.createElement
-// }
+function addwebsite() {
+    var newoption = document.createElement("option");
+    let weblink = document.querySelector('#input_link').value;
+    let name = document.querySelector('#input_name').value;
+    
+    newoption.setAttribute("class", "option");
+    newoption.setAttribute("value", weblink);
+    newoption.innerHTML = name;
+    document.body.appendchild(newoption);
+}
