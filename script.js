@@ -15,5 +15,6 @@ function addwebsite() {
     newoption.setAttribute("class", "option");
     newoption.setAttribute("value", weblink);
     newoption.innerHTML = name;
-    document.body.appendchild(newoption);
+    let ws = document.getElementById("websites");
+    ws.add(newoption);
 }

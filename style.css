@@ -1,5 +1,7 @@
 html {
   background-color: black;
+  height: 100%;
+  width: 100%;
 }
 
 select {
@@ -34,4 +36,10 @@ h1 {
 
 .selection {
   color: red;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
